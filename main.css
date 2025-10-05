@@ -1,0 +1,651 @@
+*,body,html{
+    height: auto;
+    color: white;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position:relative;
+    justify-content: space-around;
+    height: 5rem;
+    width: 100%;
+    background-color:rgb(51, 50, 50);
+}
+.brandName{
+        display: flex;
+        flex-direction: column;
+        align-items: center;        
+}
+
+.agency{
+    font-size: 0.6rem;
+}
+.brand{
+        color: aqua;
+        font-size: 3rem;
+        font-weight: 900;
+}
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+ul li{
+    padding: 10px;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 35rem;
+    background-color: rgb(29, 28, 28);
+}
+
+
+.main-right{
+    display: flex;
+    height: 60%;
+    width: 60%;
+    flex-direction: column;
+    padding-left: 5rem;
+}
+.text{
+    margin-top: 0.3rem;
+    text-align: left;
+    overflow-y: hidden;
+}
+
+.word1{
+    color: aqua;
+    font-size: 1rem;
+}
+.word2{
+    font-size: 2rem;
+    font-weight:bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-y:hidden;
+
+}
+.middleword{
+    color: aqua;
+    font-size: 2.9rem;
+}
+.border{
+    width: 5rem;
+    border: 1px solid aqua;
+    border-radius: 10px;
+}
+.description{
+    width: 22rem;
+    font-size:1rem;
+    color: rgb(85, 83, 83);
+    font-weight: lighter;
+}
+.word3{
+    margin-top: 4rem;
+    color: aqua;
+}
+.main-leftimg{
+    height: 35rem;
+    position: relative;
+    width:50rem;
+    z-index: 100;
+    background-image: linear-gradient(-90deg,rgb(0,255,255,0.1) 47%,rgb(29, 28, 28) 99%);
+}
+.main-leftimg img{
+    position: absolute;
+    height: 35rem;
+    width: 99%;
+    object-fit:cover;
+}
+
+/* ------------------------ */
+.but{
+    height: 3rem;
+    width: 5rem;
+    display: flex;
+    margin-top: 3rem;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid aqua;
+    background-color: aqua;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    height: 35rem;
+    background-color: rgb(17, 17, 17);
+}
+
+.services-left{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.service-right{
+    display: flex;
+    height: 55%;
+    width: 40%;
+    flex-direction: column;
+}
+.oneservice{
+    height: 10rem;
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(360deg,rgb(0,255,255,0.1) 70%,rgb(17, 17, 17) 95%);
+    margin-bottom: 0.4rem;
+    margin-right: 0.3rem;
+}
+.anotherface{
+    height: 10rem;
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgb(22, 22, 22);
+}
+
+.anotherface img{
+    height: 4rem;
+    width: 4rem;
+    margin-bottom: 0.3rem;
+}
+
+.oneservice img{
+    height: 4rem;
+    width: 4rem;
+    margin-bottom: 0.3rem;
+}
+.descrip2{
+    margin-top: 0.3rem;
+    text-align: center;
+    color: rgb(85, 83, 83);
+}
+
+/* ------------------------------- */
+.girl{
+    height: 35rem;
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+}
+.girlimage{
+    height:100%;
+    overflow: hidden;
+    width:50%;
+    position: relative;
+}
+.girlimage img{
+    height: 100%;
+    position: absolute;
+    object-fit:cover;
+}
+.right-girl{
+    display: flex;
+    height:20rem;
+    flex-direction: column;
+    width: 40%;
+}
+.girl-row{
+    height: 4rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.icon-girl{
+    display: flex;
+    flex-direction: row;
+}
+.wid{
+    width: 13rem;
+}
+.midcriativity{
+    color: aqua;
+    font-size: 2.8rem;
+}
+.girl-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.icon-girl img{
+    height: 3.5rem;
+    width: 3.5rem;
+    margin-right: 0.2rem;
+}
+
+/* ---------------------------- */
+.statistcs{
+    height:20rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.statistcs img{
+    width: 100%;
+    height: 20rem;
+    position: absolute;
+    object-fit: cover;
+}
+
+.statistcs-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+    height: 20rem;
+    width: 13rem;
+}
+.icons{
+    height:4rem;
+    width: 4rem;
+}
+.icons img{
+    height: 3.5rem;
+    width: 3rem;
+}
+.number{
+    font-size: 3rem;
+    color: aqua;
+    font-family:fantasy;
+}
+.plus{
+    font-size: 2rem ;
+}
+.statext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.backcolor{
+    background-image: linear-gradient(-90deg,rgba(50, 143, 143, 0.1) 50%,rgb(29, 28, 28) 99%);
+}
+
+/* -------------------------------------- */
+.latestprogect{
+    background-color: rgb(7, 7, 7);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 35rem;
+    overflow-y: hidden;
+}
+.latestright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text2{
+    margin-top: 0.9rem;
+}
+.latestleft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.imgG{
+    position: relative;
+    height: 15rem;
+    width: 15rem;
+    overflow-y: hidden;
+    object-fit: cover;
+}
+.imgG img{
+    height: 14rem;
+    width: 14rem;
+    object-fit: cover;
+}
+.imgG2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+/* --------------------------------------------------- */
+
+.brands{
+    height:9.4rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow-y:hidden;
+    
+}
+.brandscolor{
+    height: 20rem;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(-90deg,rgb(0,255,255,0.1) 30%,rgb(29, 28, 28) 100%);
+}
+.brandscolor2{
+    height: 20rem;
+    width: 100%;
+    position: absolute;
+    background-image: linear-gradient(90deg,rgb(0,255,255,0.1) 30%,rgb(29, 28, 28) 100%);
+}
+.brands img{
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+    position:absolute;
+}
+
+
+
+.brand-icons{
+    height: 20rem;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.icon{
+    width: 9rem;
+}
+.icon img{
+    height:2rem;
+    width: 9rem;
+}
+/* ------------------------------------------------- */
+.whychoose{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 36rem;
+    width: 100%;
+    gap: 20px;
+    background-color: rgb(0, 0, 0);
+
+}
+.rowrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+.flexcol{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.im{
+    height: 20rem;
+    width: 21.9rem;
+}
+.im img{
+    width: 19rem;
+    height: 15rem;
+    object-fit: cover;
+}
+/* ----------------------------------------- */
+.team{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40rem;
+    background-color: rgb(26, 25, 25);
+}
+.centerteam{
+    height: 13rem;
+    text-align: center;
+    width: 100%;
+    gap: 0px;
+
+}
+.text-center{
+    justify-self: center;
+    width: 60%;
+    margin-top: 10px;
+}
+.cards
+{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(32, 32, 32,0.7);
+    width: 23rem;
+    gap: 5px;
+}
+.cardimg{
+    position: relative;
+    background-image: linear-gradient(90deg,rgb(0,255,255,0.1) 30%,rgb(29, 28, 28) 100%);
+    height: 12rem;
+    width: 17rem;
+}
+.backdesign{
+    position: absolute;
+    
+}
+.cardimg img{
+    position: absolute;
+    object-fit: cover;
+    height: 10rem;
+    width: 10rem;
+}
+/* ----------------------------------------- */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 20rem;
+    width: 100%;
+    position: relative;
+    background-image: linear-gradient(140deg,rgba(0, 0, 0, 0.897) 35%,rgb(0,255,255,0.8) 80%,rgba(0, 0, 0, 0.897)10%);
+}
+footer nav{
+    position: absolute;
+    top:15rem;
+}
+
+
+
+/*--------------------------------------- */
+@media(max-width:920px ){
+    .main{
+        padding-top: 2rem;
+        flex-direction: column;
+        height: 50rem;
+    } 
+    .main-right{
+        width: 90%;
+    }
+    .main-leftimg{
+        width: 100%;
+        overflow: hidden;
+    }
+    .services{
+        flex-direction: column;
+        height:90rem;
+    }
+    .service-right{
+        width: 80%;
+    }
+    .services-left{
+        height: 50rem;
+        margin-top: -30rem;
+        flex-direction: column;
+    }
+    .girl{
+    height: 50rem;
+    flex-direction: column;
+    }
+    .right-girl{
+        height: 40rem;
+        width: 97%;
+    }
+    .girlimage{
+        width: 90%;
+    }
+    .latestprogect{
+        flex-direction: column;
+        height: 65rem;
+    }
+    .latest-left{
+        flex-direction:column-reverse;
+    }
+    .latest-right{
+        width: 90%;
+    }
+    .whychoose{
+        height: 70rem;
+    }
+    .rowrow{
+        width: 99%;
+        flex-direction: column;
+    }
+    .team{
+        height: 90rem;
+    }
+    .cards{
+        flex-direction: column;
+        
+    }
+    .brand{
+        font-size: 2rem;
+    }
+    ul li{
+        padding:4px;
+        font-size: 0.9rem;
+    }
+    .word1{
+        text-align: center;
+        color: white;
+        font-weight: bolder;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
+
+/* ---------------------Mobile---------------- */
+@media(max-width:480px){
+    .agency{
+    font-size: 0.5rem;
+    }
+    .brand{
+        color: aqua;
+        font-size: 1.8rem;
+        font-weight: 900;
+    }
+    ul li {
+        font-size: 0.5rem;
+        padding: 1px;
+        font-weight: 900;
+    }
+    .description{
+        width: 15rem;
+    }
+    .word1{
+        color: aqua;
+        font-size: 1.1rem;
+    }
+.word2{
+    font-size: 1.3rem;
+    font-weight:bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-y:hidden;
+    }
+    .middleword{
+        color: aqua;
+        font-size: 1.5rem;
+    }
+    .text2{
+        font-size: 1.4rem;
+    }
+    .latestprogect{
+        overflow: hidden;
+        height: 80rem;
+    }
+    .text2{
+        font-size: 1rem;
+    }
+    footer .word1{
+        font-size: 0.6rem;
+        color:bisque;
+    }
+    .icon img{
+        height:1.3rem;
+        width: 3rem;
+    }
+        .statistcs img{
+        width: 100%;
+        height: 20rem;
+        position: absolute;
+        object-fit: cover;
+    }
+
+    .statistcs-icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        z-index: 20;
+        height: 20rem;
+        width: 13rem;
+    }
+    .icons{
+        height:4rem;
+        width: 4rem;
+    }
+    .icons img{
+        height: 3rem;
+        width: 3rem;
+    }
+    .number{
+        font-size: 2rem;
+    }
+    .plus{
+        font-size: 1.5rem ;
+    }
+    .search-icon{
+        display: none;
+    }
+}
